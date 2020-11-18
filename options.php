@@ -399,6 +399,12 @@ function optionsframework_options(){
         'std'=>'',
         'type'=>'text');
     $options[] = array(
+        'name'=>__('rss','moedog'),
+        'desc'=>__('连接前要带有 http:// 或者 https:// ','moedog'),
+        'id'=>'social_rss',
+        'std'=>'',
+        'type'=>'text');
+    $options[] = array(
         'name'=>__('文章设置','moedog'),
         'type'=>'heading');
     $options[] = array(
