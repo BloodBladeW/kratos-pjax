@@ -4,7 +4,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-3 footer-list text-center">
                                     <p class="kratos-social-icons"><?php
-                                        echo (!kratos_option('social_mastodon'))?'':'<a target="_blank" rel="nofollow" rel="me" href="'.kratos_option('social_mastodon').'"><i class="fa-brands fa-mastodon"></i></a>';
+                                        echo (!kratos_option('social_mastodon'))?'':'<a target="_blank" rel="me" href="'.kratos_option('social_mastodon').'"><i class="fa-brands fa-mastodon"></i></a>';
                                         echo (!kratos_option('social_tweibo'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_tweibo').'"><i class="fa fa-tencent-weibo"></i></a>';
                                         echo (!kratos_option('social_mail'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_mail').'"><i class="fa-solid fa-envelope"></i></a>';
                                         echo (!kratos_option('social_twitter'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_twitter').'"><i class="fa-brands fa-twitter"></i></a>';
