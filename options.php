@@ -357,7 +357,7 @@ function optionsframework_options(){
         'id'=>'gov_link',
         'type'=>'text');
     $options[] = array(
-        'name'=>__('mastodon','moedog'),
+        'name'=>__('Mastodon','moedog'),
         'desc'=>__('连接前要带有 http:// 或者 https:// ','moedog'),
         'id'=>'social_mastodon',
         'std'=>'',
