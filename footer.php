@@ -4,14 +4,14 @@
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-3 footer-list text-center">
                                     <p class="kratos-social-icons"><?php
-                                        echo (!kratos_option('social_mastodon'))?'':'<a target="_blank" rel="nofollow" rel="me" href="'.kratos_option('social_mastodon').'"><i class="fa fa-mastodon"></i></a>';
+                                        echo (!kratos_option('social_mastodon'))?'':'<a target="_blank" rel="nofollow" rel="me" href="'.kratos_option('social_mastodon').'"><i class="fa-brands fa-mastodon"></i></a>';
                                         echo (!kratos_option('social_tweibo'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_tweibo').'"><i class="fa fa-tencent-weibo"></i></a>';
-                                        echo (!kratos_option('social_mail'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_mail').'"><i class="fa fa-envelope"></i></a>';
-                                        echo (!kratos_option('social_twitter'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_twitter').'"><i class="fa fa-twitter"></i></a>';
-                                        echo (!kratos_option('social_facebook'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_facebook').'"><i class="fa fa-facebook-official"></i></a>';
-                                        echo (!kratos_option('social_linkedin'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_linkedin').'"><i class="fa fa-linkedin-square"></i></a>';
-                                        echo (!kratos_option('social_github'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_github').'"><i class="fa fa-github"></i></a>';
-                                        echo (!kratos_option('social_rss'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_rss').'"><i class="fa fa-rss"></i></a>';?>
+                                        echo (!kratos_option('social_mail'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_mail').'"><i class="fa-solid fa-envelope"></i></a>';
+                                        echo (!kratos_option('social_twitter'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_twitter').'"><i class="fa-brands fa-twitter"></i></a>';
+                                        echo (!kratos_option('social_facebook'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_facebook').'"><i class="fa-brands fa-facebook-official"></i></a>';
+                                        echo (!kratos_option('social_linkedin'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_linkedin').'"><i class="fa-brands fa-linkedin-square"></i></a>';
+                                        echo (!kratos_option('social_github'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_github').'"><i class="fa-brands fa-github"></i></a>';
+                                        echo (!kratos_option('social_rss'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_rss').'"><i class="fa-solid fa-rss"></i></a>';?>
                                     </p>
                                     <p> © <?php echo date('Y'); ?> <a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a>. All Rights Reserved. | <?php _e('已在风雨中度过','moedog'); ?> <span id="span_dt_dt">Loading...</span><br>Theme <a href="https://moedog.org/787.html" target="_blank" rel="nofollow">Kratos</a> Made by <a href="https://www.vtrois.com" target="_blank" rel="nofollow">Vtrois</a> Modified by <a href="https://moedog.org" target="_blank" rel="nofollow">Moedog</a><?php if(kratos_option('sitemap')) echo ' | <a href="'.get_option('home').'/sitemap.html" target="_blank">Sitemap</a>'; ?>
                                     <?php if(kratos_option('icp_num')) echo '<br><a href="https://beian.miit.gov.cn" rel="external nofollow" target="_blank">'.kratos_option('icp_num').'</a>';
